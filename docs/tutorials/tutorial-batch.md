@@ -33,7 +33,7 @@ running on your local machine. You don't need to have loaded any data yet.
 A data load is initiated by submitting an *ingestion task* spec to the Druid Overlord. For this tutorial, we'll be loading the sample Wikipedia page edits data.
 
 An ingestion spec can be written by hand or by using the "Data loader" that is built into the Druid console.
-The data loader can help you build an ingestion spec by sampling your data and and iteratively configuring various ingestion parameters.
+The data loader can help you build an ingestion spec by sampling your data and iteratively configuring various ingestion parameters.
 The data loader currently only supports native batch ingestion (support for streaming, including data stored in Apache Kafka and AWS Kinesis, is coming in future releases).
 Streaming ingestion is only available through a written ingestion spec today.
 
